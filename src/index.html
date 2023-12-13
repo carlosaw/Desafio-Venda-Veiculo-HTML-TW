@@ -14,39 +14,41 @@
     <link href="./output.css" rel="stylesheet">
   </head>
 
-  <body class="flex justify-center items-center m-0 p-0 w-full">
-    <container class="flex justify-items-center items-center flex-col w-4/5">
-      <header class ="border border-t-0 border-l-0 border-r-0 border-b-2 border-neutral-700
-     w-full h-28 flex items-center">
+  <body class="flex justify-center items-center m-0 p-0">
+    <container class="m-auto flex justify-items-center items-center flex-col w-full">
 
-        <nav class="flex flex-row w-full">
+      <header class ="w-4/5 h-28 flex items-center">
+        <nav class="bg-red-500 flex flex-row w-full">
           <div class="flex flex-row items-center w-96 justify-around">
-            <h2 class="text-3xl italic font-bold text-orange-500">Aw2.Car</h2>
+            <h2 class="text-orange-400 text-3xl italic font-bold">Aw2.Car</h2>
             <!-- <img alt="Logo" src="assets/Logo.png" /> -->
-            <a class="text-2xl font-semibold text-gray-500" href="/">Galeria</a>
-            <a class="text-2xl font-semibold text-gray-500" href="/">Versões</a>
+            <a class="text-2xl font-normal font-sans text-gray-300 hover:text-gray-400 ml-5 " href="/">Galeria</a>
+            <a class="text-2xl font-normal font-sans text-gray-300 ml-5 hover:text-gray-400" href="/">Versões</a>
           </div>
+
           <div class="flex flex-1 justify-end items-center">
             <img class="hidden" alt="Menu mobile" src="assets/images/menu-line.png" />
-            <button class="hover:bg-gray-500 text-orange-500 font-bold py-3 px-5 border border-gray-300 rounded">Tenho interesse</button>
+            <button class="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Tenho interesse</button>
           </div>
         </nav>
       </header>
 
-      <main>
-        <section class="banner-section">
-          <div class="banner">
-            <div class="left-area">
-              <h1>O CARRO PERFEITO PARA <span>VOCÊ</span>.</h1>
-              <div class="phrase desktop">Cuidado, essa máquina<br /> vai te
+      <!-- <div class="w-full h-28 flex items-center border-solid boder-2 border-gray-200 border-b-2"></div> -->
+
+      <main class="flex flex-col justify-center items-center w-full bg-slate-400">
+        <section class="">
+          <div class="flex justify-between">
+            <div class="w-1/3">
+              <h1 class="text-5xl font-sans font-medium mt-5 text-gray-500">O CARRO PERFEITO <br/> PARA <span class="text-orange-500">VOCÊ</span>.</h1>
+              <div class="w-1/4 text-2xl mt-6 mb-6 text-gray-500">Cuidado, essa máquina<br /> vai te
                 deixar apaixonado!</div>
-              <button class="desktop" href>Tenho interesse</button>
+                <button class="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Tenho interesse</button>
             </div>
-            <div class="right-area">
+            <div class="bg-blue-500">
               <img alt="Banner desktop" class="desktop" src="assets/images/Opala-1.png" />
-              <img alt="Banner mobile" class="mobile" src="assets/images/email-car.png" />
+              <!-- <img alt="Banner mobile" class="mobile" src="assets/images/email-car.png" /> -->
             </div>
-            <button class="mobile">Tenho interesse</button>
+           
           </div>
         </section>
         <section class="gallery">
