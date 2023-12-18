@@ -20,7 +20,6 @@
       <nav class="flex justify-between lg:w-4/5 md:w-full md:pl-8 md:pr-8">
         <div class="flex flex-row items-center justify-center">
           <h2 class="text-orange-400 text-3xl italic font-bold">Aw2.Car</h2>
-          <!-- <img alt="Logo" src="assets/Logo.png" /> -->
           <a class="text-2xl font-normal font-sans text-gray-300 hover:text-gray-400 ml-5 " href="/">Galeria</a>
           <a class="text-2xl font-normal font-sans text-gray-300 ml-5 hover:text-gray-400" href="/">Versões</a>
         </div>
@@ -29,8 +28,8 @@
           <img class="hidden" alt="Menu mobile" src="assets/images/menu-line.png" />
           <button
             class="border border-orange-200 py-3 px-5 text-orange-500 hover:bg-orange-600 text-xl hover:text-white">Tenho
-            interesse</button>
-          <!-- <button class="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Tenho interesse</button> -->
+            interesse
+          </button>
         </div>
       </nav>
     </header>
@@ -53,13 +52,13 @@
             </button>
           </div>
 
-          <div class="">
-            <img class="" alt="" src="assets/images/Opala-1.png" />
+          <div class="w-full flex items-center justify-end">
+            <img class="w-4/5" alt="" src="assets/images/Opala-1.png" />
           </div>
         </div>
       </section>
 <!-- Galeria -->
-      <section class="bg-red-300 w-full flex flex-col items-center justify-between pt-5">
+      <section class="w-full flex flex-col items-center justify-between pt-5">
         <div class="flex items-center justify-between lg:w-4/5 md:w-11/12">
           <h3 class="text-gray-600 lg:text-5xl md:text-4xl font-semibold">Galeria</h3>
           <button
@@ -73,57 +72,60 @@
         </div>
       </section>
 <!-- Diferenciais -->
-      <section class="w-4/5 flex justify-between items-start">
-        <div class="w-1/2">
-          <h3 class="lg:text-5xl md:text-3xl text-gray-600 mt-7">Escolha versão que <br />combina com você.</h3>
-          <div class="mt-8">
-            <button class="bg-orange-500 border-orange-200 py-2 px-5 rounded-full text-white font-semibold">Opala
-              SS</button>
-            <button
-              class="bg-white font-semibold py-2 px-3 rounded-full text-gray-300 hover:bg-orange-500 hover:text-white">Opala
-              Diplomata</button>
-            <button
-              class="bg-white font-semibold py-2 px-5 rounded-full text-gray-300 hover:bg-orange-500 hover:text-white">Opala
-              Comodoro</button>
+      <section class="w-full flex justify-center items-center">
+        <div class="flex lg:w-4/5 md:w-11/12">
+          <div class="w-1/2">
+            <h3 class="lg:text-5xl md:text-3xl text-gray-600 lg:mt-7 md:mt-3">Escolha versão que <br />combina com você.</h3>
+            <div class="mt-8">
+              <button class="bg-orange-500 border-orange-200 lg:py-2 md:py-1 lg:px-5 md:px-2 rounded-full text-white font-semibold lg:text-base md:text-sm">Opala
+                SS</button>
+              <button
+                class="border-orange-200 bg-orange-500 lg:py-2 md:py-1 lg:px-5 md:px-2 rounded-full text-white font-semibold lg:text-base md:text-sm">
+                Diplomata</button>
+              <button
+                class="border-orange-200 bg-orange-500 lg:py-2 md:py-1 lg:px-5 md:px-2 rounded-full text-white font-semibold lg:text-base md:text-sm">
+                Comodoro</button>
+            </div>
+            <img class="mt-16" alt="" src="assets/images/img-carro-1-1.png" />
+            <div class="versions-price">
+              <h4 class="text-xl">
+                A partir de <strong class="text-orange-500 italic">R$ 75.000,00</strong>
+              </h4>
+            </div>
           </div>
-          <img class="mt-16" alt="" src="assets/images/img-carro-1-1.png" />
-          <div class="versions-price">
-            <h4 class="text-xl">
-              A partir de <strong class="text-orange-500 italic">R$ 75.000,00</strong>
-            </h4>
-          </div>
-        </div>
 
-        <div class="flex flex-col w-1/2 h-full pl-12">
-          <h3 class="text-gray-600 text-4xl font-semibold mt-10 mb-14">Diferenciais do Opala SS</h3>
-          <div class="flex justify-start items-center mb-10 border-b-2 border-gray-300 pb-3">
-            <img class="mr-4" alt="" src="assets/images/gas-station-line.png" />
-            <p class="text-2xl text-gray-600">Consumo médio de 4.8 Km/l</p>
+          <div class="flex flex-col justify-start items-start w-1/2 h-full lg:pl-28 md:pl-6">
+            <h3 class="text-gray-600 lg:text-4xl md:text-2xl font-semibold lg:mt-10 md:mt-4 lg:mb-14 md:mb-7">Diferenciais do Opala SS</h3>
+            <div class="w-full flex justify-start items-center lg:mb-10 md:mb-7 border-b-2 border-gray-300 pb-3">
+              <img class="mr-4" alt="" src="assets/images/gas-station-line.png" />
+              <p class="lg:text-2xl md:text-lg text-gray-600">Consumo médio de 4.8 Km/l</p>
+            </div>
+            <div class="w-full flex justify-start items-center lg:mb-10 md:mb-7 border-b-2 border-gray-300 pb-3"">
+                <img class=" mr-4" alt="Cronômetro" src="assets/images/timer-line.png" />
+            <p class="lg:text-2xl md:text-lg text-gray-600">0 aos 100 km/h em 12.8 segundos</p>
           </div>
-          <div class="flex justify-start items-center mb-10 border-b-2 border-gray-300 pb-3"">
-              <img class=" mr-4" alt="Cronômetro" src="assets/images/timer-line.png" />
-          <p class="text-2xl text-gray-600">0 aos 100 km/h em 12.8 segundos</p>
-        </div>
-        <div class="flex justify-start items-center mb-10 border-b-2 border-gray-300 pb-3"">
-              <img class=" mr-4" alt="Velecímetro" src="assets/images/speed-up-fill.png" />
-        <p class="text-2xl text-gray-600">Velocidade máxima de 200 km/h</p>
-        </div>
-        <div class="flex justify-start items-center mb-10 border-b-2 border-gray-300 pb-3"">
-              <img class=" mr-4" alt="Raio" src="assets/images/flashlight-line.png" />
-        <p class="text-2xl text-gray-600">Potência máxima de 171 CV</p>
-        </div>
-        <button class="w-1/2 mt-14 py-3 px-5 text-white bg-orange-600 text-xl hover:text-white">Tenho interesse</button>
+          <div class="w-full flex justify-start items-center lg:mb-10 md:mb-7 border-b-2 border-gray-300 pb-3"">
+                <img class=" mr-4" alt="Velecímetro" src="assets/images/speed-up-fill.png" />
+          <p class="lg:text-2xl md:text-lg text-gray-600">Velocidade máxima de 200 km/h</p>
+          </div>
+          <div class="w-full flex justify-start items-center lg:mb-10 md:mb-7 border-b-2 border-gray-300 pb-3"">
+                <img class=" mr-4" alt="Raio" src="assets/images/flashlight-line.png" />
+          <p class="lg:text-2xl md:text-lg text-gray-600">Potência máxima de 171 CV</p>
+          </div>
+          <button class="w-1/2 lg:mt-14 md:mt-2 lg:py-3 md:py-2 lg:px-5 md:px-3 text-white bg-orange-600 text-xl hover:text-white">Tenho interesse</button>
+          </div>
         </div>
       </section>
 <!-- Email -->
-      <section class="bg-gray-700 w-4/5 flex justify-between mt-10 shadow-slate-900 shadow-lg">
-        <div class="w-1/2 flex flex-col justify-center items-center p-14">
-          <div class="w-96 flex flex-col">
-            <h3 class="text-white text-4xl font-semibold mb-7 ml-3 w-full ">Inscreva-se e receba todas as novidades.
+      <section class="w-full flex justify-center mt-10 ">
+        <div class="bg-gray-700 shadow-slate-900 shadow-lg flex justify-center lg:w-4/5 md:w-11/12 items-center">
+        <div class="w-1/2 flex flex-col justify-center items-center p-10">
+          <div class="w-full flex flex-col">
+            <h3 class="text-white lg:text-4xl md:text-2xl font-semibold mb-7 w-full">Inscreva-se e receba todas as novidades.
             </h3>
-            <input class="w-80 h-16 ml-3 pl-3" type="email" placeholder="Digite seu melhor e-mail" />
+            <input class="w-full lg:h-16 md:h-12 pl-3" type="email" placeholder="Digite seu melhor e-mail" />
             <button
-              class="py-3 px-10 text-white bg-orange-500 hover:bg-orange-600 text-xl hover:text-white ml-3 mt-7 w-80 h-16">Realizar
+              class="lg:py-3 md:py-2 lg:px-10 md:px-4 text-white bg-orange-500 hover:bg-orange-600 text-xl hover:text-white mt-7 w-full lg:h-16 md:h-12">Realizar
               inscrição</button>
           </div>
 
@@ -131,32 +133,33 @@
         <div class="email-area-right">
           <img class="w-full alt=" Banner email" src="assets/images/email-car.png" />
         </div>
+      </div>
       </section>
 <!-- Redes Sociais -->
       <section class="w-full flex justify-center items-center mt-8">
         <div class="flex justify-between w-4/5 border-b-2 border-solid">
           <div class="area-1">
-            <h2 class="text-orange-600 text-5xl font-semibold"><i>Aw2.Car</i></h2>
-            <p class="text-xl text-gray-600">O carro perfeito para você.</p>
+            <h2 class="text-orange-600 text-5xl font-bold"><i>Aw2.Car</i></h2>
+            <p class="mt-8 lg:text-2xl text-gray-600">O carro perfeito para você.</p>
           </div>
           <div class="area-2 flex flex-col items-start pb-3">
-            <div class="text-2xl font-semibold text-gray-600">Navegue</div>
-            <button class="text-xl text-gray-400 hover:text-gray-600">Galeria</button>
-            <button class="text-xl text-gray-400 hover:text-gray-600">Versões</button>
+            <div class="lg:text-xl font-semibold text-gray-600">Navegue</div>
+            <button class="lg:text-xl lg:mt-4 lg:mb-4 text-gray-400 hover:text-gray-600">Galeria</button>
+            <button class="lg:text-xl text-gray-400 hover:text-gray-600">Versões</button>
           </div>
-          <div class="">
-            <div class="text-2xl font-semibold text-gray-600">Redes Sociais</div>
-            <div class="flex justify-between">
-              <div class="mt-3 hover:opacity-40">
+          <div class="w-36">
+            <div class="text-xl font-semibold text-gray-600">Redes Sociais</div>
+            <div class="flex justify-between lg:mt-8">
+              <div class="hover:opacity-40">
                 <a href><img alt="Instagram" class="opacity-50" src="assets/images/instagram-line.png" /></a>
                 <!-- <a href><img alt="Instagram alternativo" class="insta-v2"
                     src="assets/images/instagramVariant2.png" /></a> -->
               </div>
-              <div class="mt-3 hover:opacity-40">
+              <div class="hover:opacity-40">
                 <a href><img alt="WhastApp" class="opacity-50" src="assets/images/whatsapp-line.png" /></a>
                 <!-- <a href><img alt="WhastApp alternativo" class="wpp-v2" src="assets/images/wpp-Variant2 (1).png" /></a> -->
               </div>
-              <div class="mt-3 hover:opacity-40">
+              <div class="hover:opacity-40">
                 <a href><img alt="Twitter" class="opacity-50" src="assets/images/twitter-line.png" /></a>
                 <!-- <a href><img alt="Twitter alternativo" class="twt-v2" src="assets/images/twitter-Variant2.png" /></a> -->
               </div>
@@ -166,9 +169,9 @@
 
       </section>
     </main>
-    <footer class="flex flex-col justify-center items-center w-full mt-4 mb-4">
-      <span class="text-gray-500">Todos os direitos reservados.</span>
-      <span class="text-gray-500">powered by Aw2Web</span>
+    <footer class="flex justify-between items-center w-4/5 mt-8 mb-8">
+      <span class="text-gray-500 text-xl">Todos os direitos reservados.</span>
+      <span class="text-gray-500 text-xl">powered by Aw2Web</span>
     </footer>
   </container>
 
