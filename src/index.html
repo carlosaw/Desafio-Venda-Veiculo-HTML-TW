@@ -18,33 +18,38 @@
 
     <header class="bg-white container mx-auto fixed h-28 flex justify-between items-center border-l-0 border-t-0 border-r-0 border-b-2 border-gray-300">
       <nav class="w-full flex justify-between items-center">
-        <div class="flex flex-row items-center justify-center">
+
+        <div class="left-area flex flex-row items-center justify-center">
           <h2 class="text-orange-400 text-3xl italic font-bold pl-5">Aw2.Car</h2>
           <a class="2xl:block xl:block lg:block md:block hidden text-2xl font-normal font-sans text-gray-300 hover:text-gray-400 ml-5 " href="/">Galeria</a>
           <a class="2xl:block xl:block lg:block md:block hidden text-2xl font-normal font-sans text-gray-300 ml-5 hover:text-gray-400" href="/">Versões</a>
         </div>
 
-        <div class="flex flex-col justify-end items-start">
-          <img class="2xl:hidden xl:hidden lg:hidden md:hidden block" alt="Menu mobile" src="assets/images/menu-line.png" />
-          <a class="hidden text-2xl font-normal font-sans text-gray-300 hover:text-gray-400 " href="/">Galeria</a>
-          <a class="2xl:hidden xl:hidden lg:hidden md:hidden block text-2xl font-normal font-sans text-gray-300 hover:text-gray-400" href="/">Versões</a>
+        <div class="right-area flex flex-col justify-end items-start">
+          <img class="block 2xl:hidden xl:hidden lg:hidden md:hidden mr-6 w-8" alt="Menu mobile" src="assets/images/menu-line.png" />
+
+          <a class="hidden 2xl:hidden xl:hidden lg:hidden md:hidden sm:block font-normal font-sans text-gray-300 hover:text-gray-400 " href="/">Galeria</a>
+
+          <a class="hidden 2xl:hidden xl:hidden lg:hidden md:hidden sm:block font-normal font-sans text-gray-300 hover:text-gray-400" href="/">Versões</a>
+
           <button
-            class="block border border-orange-200 py-3 px-5 text-orange-500 hover:bg-orange-600 text-xl hover:text-white mr-5">Tenho
+            class="hidden md:block lg:block xl:block 2xl:block border border-orange-200 py-3 px-5 text-orange-500 hover:bg-orange-600 text-xl hover:text-white mr-5">Tenho
             interesse
           </button>
         </div>
+
       </nav>
     </header>
     
     <main class="flex flex-col justify-center items-center w-full pt-5l mt-28">
  <!-- O carro perfeito -->
-      <section class="bg-slate-100 w-full flex justify-center">
-        <div class="w-full flex justify-between">
-          <div class="w-1/2 flex flex-col items-start pl-5">
-            <h1 class="lg:text-5xl md:text-4xl lg:mt-10 md:mt-4 lg:mb-14 md:mb-2 font-sans font-medium text-gray-500">O CARRO PERFEITO PARA <span class="text-orange-500">VOCÊ</span>.
+      <section class="bg-slate-100">
+        <div class="flex-none md:flex lg:flex xl:flex 2xl:flex">
+          <div class="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 flex flex-col items-start pl-5">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-5xl mt-8 md:mt-4 lg:mt-8 xl:mt-8 2xl:mt-8 mb-2 md:mb-2 lg:mb-14 xl:mb-14 2xl:mb-14 font-sans font-medium text-gray-500">O CARRO PERFEITO PARA <span class="text-orange-500">VOCÊ</span>.
             </h1>
             
-            <div class="mb-12">
+            <div class="mb-8 md:mb-12 lg:mb-12 xl:mb-20 2xl:mb-48">
               <p class="text-2xl text-gray-500">Cuidado, essa máquina vai te deixar apaixonado!</p>
             </div>
 
@@ -54,7 +59,7 @@
             </button>
           </div>
 
-          <div class="w-1/2 flex items-center justify-end">
+          <div class="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 flex items-center justify-end">
             <img class="w-full" alt="" src="assets/images/Opala-1.png" />
           </div>
         </div>
