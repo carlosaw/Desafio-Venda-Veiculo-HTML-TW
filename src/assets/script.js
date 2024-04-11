@@ -82,3 +82,11 @@ document.getElementById("emailForm").addEventListener("submit", (e) => {
     alert("Preencha seu e-mail.");
   }
 });
+
+function klikaj(i) {
+  document.getElementById(i).style.visibility = 'visible';
+}
+
+document.getElementById('thumb0').addEventListener('click', function() {
+  klikaj('rad1');
+});
